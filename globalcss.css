@@ -15,10 +15,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px;
+    padding: 3em 13em;
     background-color: #1f2937;
 }
 
+nav .logo {
+    font-weight: bold;
+    font-size: larger;
+}
 
 nav a {
     text-decoration: none;
@@ -27,12 +31,12 @@ nav a {
 
 nav .nav-links {
     display: flex;
-    gap: 10px;
+    gap: 3em;
 }
 
 .hero-container {
     background-color: #1f2937;
-    padding: 16px;
+    padding: 3em 13em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,7 +70,7 @@ nav .nav-links {
 
 /* feature */
 .feature-container {
-    padding: 16px;
+    padding: 3em 13em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -94,7 +98,7 @@ nav .nav-links {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 16px;
+    padding: 3em 13em;
 }
 
 .quote-container .quotes {
@@ -106,10 +110,14 @@ nav .nav-links {
 .quote-container .author {
     text-align: right;
     padding-right: 50px;
+    font-weight: bold;
+}
+
+.cta-container {
+    padding: 3em 13em;
 }
 
 .cta-background {
-    margin: 100px;
     height: 200px;
     background-color: #3b82f6;
     display: flex;
@@ -118,6 +126,10 @@ nav .nav-links {
     align-items: center;
     color: white;
     border-radius: 10px;
+}
+
+.cta-background p {
+    color: #dcdcdc;
 }
 
 .cta-button button {
@@ -133,7 +145,7 @@ nav .nav-links {
 
 /* footer */
 footer {
-    padding: 20px;
+    padding: 2em 13em;
     text-align: center;
     background-color: #1f2937;
     color: white;
