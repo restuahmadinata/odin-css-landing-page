@@ -59,3 +59,32 @@ nav .nav-links {
 .hero-image img {
     border-radius: 10px;
 }
+
+
+/* feature */
+.feature-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+
