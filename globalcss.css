@@ -1,8 +1,11 @@
 /* use font family from Google Fonts */
 
+
+
 body {
     font-family: 'Inter', monospace;
     margin: 0 auto;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,12 +100,12 @@ nav .nav-links {
 .quote-container .quotes {
     font-size: 2rem;
     color: #9c9c9c;
-    text-align: center;
+    font-style: italic;
 }
 
 .quote-container .author {
-    display: flex;
     text-align: right;
+    padding-right: 50px;
 }
 
 .cta-background {
@@ -126,4 +129,12 @@ nav .nav-links {
     border-radius: 10px;
     font-family: 'Inter';
     font-weight: 700;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
 }
