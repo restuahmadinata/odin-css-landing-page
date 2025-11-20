@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inter', monospace;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,4 +87,19 @@ nav .nav-links {
     border-radius: 10px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 16px;
+}
 
+.quote-container .quotes {
+    font-size: 2rem;
+    color: #9c9c9c;
+    text-align: center;
+}
+
+.quote-container .author {
+    text-align: right;
+}
